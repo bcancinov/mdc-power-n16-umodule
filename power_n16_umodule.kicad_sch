@@ -6315,6 +6315,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 34.29) (xy 107.95 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4c20ea-15b7-427c-bb0d-d809da3679a1")
+	)
+	(wire
+		(pts
 			(xy 58.42 57.15) (xy 58.42 59.69)
 		)
 		(stroke
@@ -6825,6 +6835,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 45.72) (xy 100.33 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c2bf14e-c5f9-4e8d-b5d3-486e126f0066")
+	)
+	(wire
+		(pts
 			(xy 58.42 69.85) (xy 58.42 72.39)
 		)
 		(stroke
@@ -7052,6 +7072,16 @@
 			(type default)
 		)
 		(uuid "c6b68f54-1b32-4e3a-bae7-55a4eeedd4d6")
+	)
+	(wire
+		(pts
+			(xy 100.33 40.64) (xy 100.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78256ee-89ba-4909-8a4c-0e8aeee56ed9")
 	)
 	(wire
 		(pts
@@ -7612,6 +7642,16 @@
 			(justify right bottom)
 		)
 		(uuid "7d823e6d-2626-4204-9ffa-6cf3fbeba33f")
+	)
+	(label "cf1"
+		(at 100.33 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80464852-d36a-4087-a674-012772a48009")
 	)
 	(label "intvcc"
 		(at 124.46 68.58 180)
@@ -9198,6 +9238,94 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 100.33 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65918dfe-bd78-468c-b485-ab9d9be788cb")
+		(property "Reference" "R8"
+			(at 98.806 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5"
+			(at 98.806 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500 mOhms ±1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Thick Film"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M" "Vishay"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCWE0603R500FKEA"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "739c7096-a9b4-403c-a8c5-e5ddff24b9a7")
+		)
+		(pin "2"
+			(uuid "4628a0f7-80f3-47c0-a3c4-0ce4b0fce435")
+		)
+		(instances
+			(project "power_n16_umodule"
+				(path "/53aa2067-7a9d-40a3-9503-2ff317e5f9b4"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 143.51 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10461,6 +10589,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 100.33 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa66e0aa-7a24-4a3c-99d7-4c41e86abddb")
+		(property "Reference" "#PWR025"
+			(at 100.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.536 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "482175b8-2949-4499-a681-2a2f20267f52")
+		)
+		(instances
+			(project "power_n16_umodule"
+				(path "/53aa2067-7a9d-40a3-9503-2ff317e5f9b4"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 45.72 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11685,6 +11879,94 @@
 			(project "power_n16_umodule"
 				(path "/53aa2067-7a9d-40a3-9503-2ff317e5f9b4"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 100.33 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9ea4f53-5764-40cc-85bd-8cbbf23a10ff")
+		(property "Reference" "C13"
+			(at 97.79 41.4781 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 97.79 44.0181 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib:T521X"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 µF Molded Tantalum Polymer Capacitor 25 V 2917 (7343 Metric) 60mOhm @ 100kHz"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M" "Kemet"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T521X107M025ATE060"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1a8e4f6-f577-4e93-b3a4-ad21c9869650")
+		)
+		(pin "2"
+			(uuid "15dd6c7f-6c12-45ed-b73a-98241864c1f4")
+		)
+		(instances
+			(project "power_n16_umodule"
+				(path "/53aa2067-7a9d-40a3-9503-2ff317e5f9b4"
+					(reference "C13")
 					(unit 1)
 				)
 			)
